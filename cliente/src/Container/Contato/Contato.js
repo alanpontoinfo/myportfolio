@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Typical from 'react-typical'
+//import Typical from 'react-typical'
 import axios from 'axios'
 import { toast } from 'react-toastify'
 
@@ -74,7 +74,7 @@ export default function Contato(props) {
       <div className='central-form'>
         <div className='col fa-2x'>
           <h4 className='title'>
-           <Typical
+          {/* <div
             loop = {Infinity}
              steps = {[
               "Pegue meu Contato...", 
@@ -82,7 +82,7 @@ export default function Contato(props) {
              "Compartilhe experiências",
              1000,
              
-          ]} />
+          ]} />*/}
           </h4>
           
           {/*<a href='https://web.facebook.com/?_rdc=1&_rdr'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import Typical from 'react-typical'
+//import Typical from 'react-typical'
 import ServicoScroll from '../../../utilidades/ServicoScroll'
 import './Perfil.css'
 
@@ -37,7 +37,7 @@ export default function Perfil() {
           <div className='profile-details-role'>
             <span className='primary-text'>
               {' '}
-              <h1>
+              {/*<h1>
                 <Typical
                   loop={Infinity}
                   steps={[
@@ -48,7 +48,7 @@ export default function Perfil() {
                   
                   ]}
                 />
-              </h1>
+                </h1>*/}
             </span>
             <span className='profile-role-tagline'>
               Aplicações web modernas.
