@@ -15,7 +15,7 @@ import './Contato.css'
 
 
 export default function Contato(props) {
-baseUrl="https://myservermail.vercel.app/"
+const baseUrl="https://myservermail.vercel.app/"
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return
     Animacao.animacao.fadeInScreen(props.id)
