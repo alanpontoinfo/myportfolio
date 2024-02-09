@@ -1,0 +1,12 @@
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+
+[[redirects]]
+  from = "https:nosalpis.netlify.app/*"
+  to = "https://myservermail.vercel.app/:splat"
+  status = 200
+  force = true
+ 
