@@ -4,12 +4,9 @@
   status = 200
 
 
-
-
-
-  [[redirects]]
-  from = "/contact"
-  to = "https://myservermail.vercel.app/"
+[[redirects]]
+  from = "/contact/*"
+  to = "https://myservermail.vercel.app/:splat"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
+ 
