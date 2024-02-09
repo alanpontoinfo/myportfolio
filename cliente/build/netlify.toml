@@ -1,6 +1,0 @@
-[[redirects]]
-   from = "/contact/*"
-   to = "https://myservermail.vercel.app/:splat"
-   status = 200
-   force = true
- 
