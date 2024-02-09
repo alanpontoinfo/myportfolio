@@ -5,7 +5,7 @@
 
 
 [[redirects]]
-  from = "/contact/*"
+  from = "https:nosalpis.netlify.app/*"
   to = "https://myservermail.vercel.app/:splat"
   status = 200
   force = true
