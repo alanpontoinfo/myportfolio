@@ -15,7 +15,7 @@ import './Contato.css'
 
 
 export default function Contato(props) {
-//onst baseUrl="https://myservermail.vercel.app/"
+const baseUrl="https://myservermail.vercel.app/"
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return
     Animacao.animacao.fadeInScreen(props.id)
@@ -48,7 +48,7 @@ export default function Contato(props) {
                 mensagem,
             };
             setTransf(true)
-            const res = await axios.post(`/contact`, data)
+            const res = await axios.post(`${baseUrl}contact`, data)
             if(nome.length === 0 || email.length === 0 || mensagem.length === 0){
                 setBanner(res.data.msg)
                 toast.error(res.data.msg)
