@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.8b7ec296.chunk.css",
-    "main.js": "/static/js/main.e0deff88.chunk.js",
-    "main.js.map": "/static/js/main.e0deff88.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6bab8e82.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6bab8e82.js.map",
+    "main.js": "/static/js/main.1e9c90ee.chunk.js",
+    "main.js.map": "/static/js/main.1e9c90ee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3be6e828.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3be6e828.js.map",
     "static/css/2.6f06d037.chunk.css": "/static/css/2.6f06d037.chunk.css",
-    "static/js/2.07510805.chunk.js": "/static/js/2.07510805.chunk.js",
-    "static/js/2.07510805.chunk.js.map": "/static/js/2.07510805.chunk.js.map",
-    "static/js/3.9c06e8ec.chunk.js": "/static/js/3.9c06e8ec.chunk.js",
-    "static/js/3.9c06e8ec.chunk.js.map": "/static/js/3.9c06e8ec.chunk.js.map",
+    "static/js/2.7ac81700.chunk.js": "/static/js/2.7ac81700.chunk.js",
+    "static/js/2.7ac81700.chunk.js.map": "/static/js/2.7ac81700.chunk.js.map",
+    "static/js/3.7c5ed256.chunk.js": "/static/js/3.7c5ed256.chunk.js",
+    "static/js/3.7c5ed256.chunk.js.map": "/static/js/3.7c5ed256.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.6f06d037.chunk.css.map": "/static/css/2.6f06d037.chunk.css.map",
     "static/css/main.8b7ec296.chunk.css.map": "/static/css/main.8b7ec296.chunk.css.map",
-    "static/js/2.07510805.chunk.js.LICENSE.txt": "/static/js/2.07510805.chunk.js.LICENSE.txt",
+    "static/js/2.7ac81700.chunk.js.LICENSE.txt": "/static/js/2.7ac81700.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/Poppins-Thin.a61eaf4c.ttf",
     "static/media/Depoimento.css": "/static/media/bg-1.e7a118c3.jpg",
     "static/media/Home.css": "/static/media/bg.15b0f812.svg",
+    "static/media/covid19.jpeg": "/static/media/covid19.3168a8ee.jpeg",
     "static/media/education.svg": "/static/media/education.9ed8b538.svg",
     "static/media/Sobre.css": "/static/media/eu.0b6982d5.jpg",
     "static/media/interests.svg": "/static/media/interests.311391e8.svg",
@@ -32,10 +33,10 @@
     "static/media/work-history.svg": "/static/media/work-history.f8127a79.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bab8e82.js",
+    "static/js/runtime-main.3be6e828.js",
     "static/css/2.6f06d037.chunk.css",
-    "static/js/2.07510805.chunk.js",
+    "static/js/2.7ac81700.chunk.js",
     "static/css/main.8b7ec296.chunk.css",
-    "static/js/main.e0deff88.chunk.js"
+    "static/js/main.1e9c90ee.chunk.js"
   ]
 }

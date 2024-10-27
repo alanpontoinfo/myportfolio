@@ -58,7 +58,7 @@ const Experiencia = (props) => {
     { label: 'Histórico recente', logoSrc: 'work-history.svg' },
     { label: 'Habilidades', logoSrc: 'programming-skills.svg' },
     { label: 'Projetos atuais', logoSrc: 'projects.svg' },
-    { label: 'Interesses', logoSrc: 'interests.svg' },
+   /*  { label: 'Interesses', logoSrc: 'interests.svg' },*/
   ]
 
   // habilidades
@@ -84,19 +84,28 @@ const Experiencia = (props) => {
     },
     {
       titulo: <a href="https://alanpontoinfo.github.io/javalearn/contabilidade/aj2contabil.html" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/cont-log.jpg").default} alt="aj2conatbil" style={{width:'100px', hight:'100px'}}/> Contábil </a>,
-      duracao: { fromDate: '2021', toDate: '2022' },
+      duracao: { fromDate: '2023', toDate: '2023' },
       descricao: 'Website para divulgar os serviços de Contabilidade',
       subCabecalho: 'Tecnologia Usada: Html, Javascript, Css',
       
     },
     {
       titulo: <a href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> Sabor e Arte</a>,
-      duracao: { fromDate: '2020', toDate: '2021' },
+      duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
         'Este site divulga os produtos com a devida descrição e tem integração com as redes sociais e whatsapp',
       subCabecalho:
         'Tecnologia Usada: Javascript, css, React Js, Bootstrap, html',
     },
+    {
+      titulo: <a href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> DashBoard Covid19</a>,
+      duracao: { fromDate: '2023', toDate: '2024' },
+      descricao:
+        'Neste projeto é realizado uma exploração de dados no dataset sobre covid19 em busca de informações estatísticas que demonstrem percentuais de infecções ',
+      subCabecalho:
+        'Tecnologia Usada: Javascript, css, React Js, Bootstrap, html',
+    },
+    
   ]
 
  const detalhesExperiencia = [
@@ -168,13 +177,14 @@ const Experiencia = (props) => {
         <div className='experience-description'>
           <span className='resume-description-text'>
             Analista/ Desenvolvedor:
-Trabalhei no desenvolvimento de um  modulo que permitia fazer consulta dos creditos dos clientes via requisição get na API para exibir em formato de  relatorios.. O sistema web  utilizava no backend, banco de dados mysql com java springboot, e no frontend, thymeleef xhtml5 integrado com datatable para exibir os dados.
+Trabalhei no desenvolvimento de um  modulo que permitia fazer consulta dos créditos dos clientes via requisição 'GET' na API para exibir os dados em formato de  relatorios..
+ 
 <ul>
   <li>
 Ferramentas utilizadas:
- - gitbash para comitar e atualizar os arquivos no repositorio.
- - Trello para criar e gerenciar as tarefas.
- - Editor do mysqlworchbenk para fazer consultas e subconsultas no banco de dados.
+ - "Gitbash" para comitar e atualizar os arquivos no repositorio.
+ - "Trello" para  gerenciar as tarefas.
+ - Editor do mysql para fazer consultas e subconsultas no banco de dados.
  -Postman para testar api,s.
  - Vscode para editar os códigos.</li>
  </ul>
@@ -190,8 +200,7 @@ Ferramentas utilizadas:
         />
         <div className='experience-description'>
           <span className='resume-description-text'>
-            -Trabalho com Desenvolvimento de Websites, landPages responsivos , Análises e Visualização de Dados , sistemas web com as  Tecnologias:
-            React js, css, html, javascript, Express js, mongoDb, Node js e Python.{' '}
+            -Trabalho com Desenvolvimento de Websites, landPages responsivos , Análises e Visualização de Dados .{' '}
           </span>
         </div>
       </div>
@@ -230,7 +239,7 @@ Ferramentas utilizadas:
       
        </div>,
 
-    /* Interesses */
+    /* Interesses 
 
     <div className='resume-screen-container' key='interesses'>
      
@@ -242,7 +251,7 @@ Ferramentas utilizadas:
         cabecalho='Esporte ao ar livre'
         descricao ='Meu interesse é mais em praticar corridas e natação.'
       />
-    </div>,
+    </div>,*/
   ]
 
   const manipulaCarrossel = (index) => {

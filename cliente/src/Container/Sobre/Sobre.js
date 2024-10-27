@@ -15,17 +15,17 @@ export default function sobre(props) {
  ServicoScroll.atualScreenFadeIn.subscribe(fadeInScreenHandler)
 
   const CONSTANTES_SCREEN = {
-    descricao:  'Eu sou um profissional, Graduado Bacharel em Sistemas de Informações com certificação em Desenvolvedor FullStack Web. Área pela qual procuro me manter atualizado nas novas têndencias e tecnologias para prestar o melhor serviço possível...'  ,
+    descricao:  'Eu sou um profissional, Graduado Bacharel em Sistemas de Informações com certificação em Desenvolvedor Web e Aáalise de Dados.'  ,
        
 
     destaques: {
       principal: [
-        "Construção de sites responsivos, landpages, com Javascript, React, Html, Css",
-        'Construção de REST-API com Node.js, Express, Serverless ',
-        "Desenvolvimento de Banco de Dados com SQL e NO-SQL",
+        "Construção de sites responsivos e landpages",
+        'Construção de API-Rest ',
+        "Desenvolvimento de Banco de Dados ",
         "Conhecimento em Modelagem de Dados , tabelas realcionais, UML", 
-        "Analise de Dados com Python",
-        "Utilizo a prática de automatização CI/CD -Integração e Entrega Contínua-"
+        "Analise e visualização de Dados ",
+        "Aautomatização CI/CD -Integração e Entrega Contínua-"
       
           
       ],
