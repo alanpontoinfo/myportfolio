@@ -42,7 +42,8 @@ const Experiencia = (props) => {
           )}</div>
         </div>
         <div className='resume-sub-heading'>
-          <span>{props.subCabecalho ? props.subCabecalho : ''}</span>
+          <span>{props.subCabecalho ? props.
+          subCabecalho : ''}</span>
         </div>
         <div className='resume-heading-description'>
           <span>{props.descricao ? props.descricao : ''}</span>
@@ -89,7 +90,7 @@ const Experiencia = (props) => {
       
     },
     {
-      titulo: <a href="https://saborearte.netlify.com" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> Sabor e Arte</a>,
+      titulo: <a href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> Sabor e Arte</a>,
       duracao: { fromDate: '2020', toDate: '2021' },
       descricao:
         'Este site divulga os produtos com a devida descrição e tem integração com as redes sociais e whatsapp',
