@@ -83,14 +83,14 @@ const Experiencia = (props) => {
       subCabecalho: 'Tecnoloiga usada: React Js, Bootstrap, javascript, css, html, NodeJs e Express Js', 
     },*/
     {
-      titulo: <a href="https://alanpontoinfo.github.io/javalearn/contabilidade/aj2contabil.html" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/cont-log.jpg").default} alt="aj2conatbil" style={{width:'100px', hight:'100px'}}/> Contábil </a>,
+      titulo: <a href="https://alanpontoinfo.github.io/javalearn/contabilidade/aj2contabil.html" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/cont-log.jpg").default} alt="aj2conatbil" style={{width:'100px', hight:'100px'}}/>  </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao: 'Website para divulgar os serviços de Contabilidade',
       subCabecalho: 'Tecnologia Usada: Html, Javascript, Css',
       
     },
     {
-      titulo: <a href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> Sabor e Arte</a>,
+      titulo: <a href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
         'Este site divulga os produtos com a devida descrição e tem integração com as redes sociais e whatsapp',
@@ -98,10 +98,10 @@ const Experiencia = (props) => {
         'Tecnologia Usada: Javascript, css, React Js, Bootstrap, html',
     },
     {
-      titulo: <a href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> DashBoard Covid19</a>,
+      titulo: <a href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
-        'Neste projeto é demonstrado a utilização do tableau na criação de dashboards com gráficos e mapas. ',
+        'Neste projeto é demonstrado a utilização do tableau na criação de dashboards com gráficos e mapas sobre o Covid19. ',
       subCabecalho:
         'Tecnologia Usada: Python, Excel, Tableau',
     },
