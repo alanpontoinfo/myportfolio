@@ -57,7 +57,7 @@ const Experiencia = (props) => {
     { label: 'Educação', logoSrc: 'education.svg' },
     { label: 'Histórico recente', logoSrc: 'work-history.svg' },
     { label: 'Habilidades', logoSrc: 'programming-skills.svg' },
-    { label: 'Projetos mais atuais', logoSrc: 'projects.svg' },
+    { label: 'Projetos atuais', logoSrc: 'projects.svg' },
     { label: 'Interesses', logoSrc: 'interests.svg' },
   ]
 

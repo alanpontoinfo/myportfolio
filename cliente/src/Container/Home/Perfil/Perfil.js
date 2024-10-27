@@ -51,7 +51,7 @@ export default function Perfil() {
                 </h1>*/}
             </span>
             <span className='profile-role-tagline'>
-              Aplicações web modernas.
+              Aplicações web moderna.
             </span>
           </div>
 
