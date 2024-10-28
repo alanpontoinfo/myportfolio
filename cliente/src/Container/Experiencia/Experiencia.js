@@ -101,7 +101,7 @@ const Experiencia = (props) => {
       titulo: <a href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
-        'Neste projeto é demonstrado a utilização do tableau na criação de dashboards com gráficos e mapas sobre o Covid19. ',
+        'Este é um projeto de Análise de Dados. Um Dashboard(painel) com gráficos e mapas sobre o Covid19. ',
       subCabecalho:
         'Tecnologia Usada: Python, Excel, Tableau',
     },

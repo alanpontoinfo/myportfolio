@@ -72,9 +72,9 @@ export default function sobre(props) {
                 {''}
                 Entre em contato{''}
               </button>
-              <a href='alansantos.pdf' download={'Alan Santos.pdf'}>
+              <a href='portfolio_projetos.pdf' download={'portfolio_alan.pdf'}>
                 <button className='btn highlighted-btn'>
-                  Baixe portifolio
+                  Baixe portfólio
                 </button>
               </a>
             </div>

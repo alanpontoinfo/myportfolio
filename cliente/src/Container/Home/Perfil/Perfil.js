@@ -51,7 +51,7 @@ export default function Perfil() {
                 </h1>*/}
             </span>
             <span className='profile-role-tagline'>
-         Gosto de Desenvolver sites, Analisar e visualizar Dados através de gráficos.
+         <p>Gosto de Desenvolver sites e fazer Análise de Dados para visualizá-los através de gráficos.</p>
             </span>
           </div>
 
@@ -64,7 +64,7 @@ export default function Perfil() {
               Entre em contato{''}
             </button>
             <a href='portfolio_projetos.pdf' download={'portfolio_alan.pdf'}>
-              <button className='btn highlighted-btn'>Baixe portfolio</button>
+              <button className='btn highlighted-btn'>Baixe portfólio</button>
             </a>
           </div>
         </div>
