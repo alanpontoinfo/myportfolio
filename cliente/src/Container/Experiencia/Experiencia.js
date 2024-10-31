@@ -176,17 +176,17 @@ const Experiencia = (props) => {
         />
         <div className='experience-description'>
           <span className='resume-description-text'>
-            Analista/ Desenvolvedor:
-Trabalhei no desenvolvimento de um  modulo que permitia fazer consulta dos créditos dos clientes via requisição 'GET' na API para exibir os dados em formato de  relatorios..
+            <p>Analista/ Desenvolvedor:</p>
+<p>Trabalhei no desenvolvimento de um  modulo que permitia fazer consulta dos créditos dos clientes via requisição 'GET' na API para exibir os dados em formato de  relatorios..</p>
  
 <ul>
   <li>
-Ferramentas utilizadas:
- - "Gitbash" para comitar e atualizar os arquivos no repositorio.
- - "Trello" para  gerenciar as tarefas.
- - Editor do mysql para fazer consultas e subconsultas no banco de dados.
- -Postman para testar api,s.
- - Vscode para editar os códigos.</li>
+Ferramentas utilizadas:</li>
+ <li>Gitbash para comitar e atualizar os arquivos no repositorio.</li>
+<li>  Trello para  gerenciar as tarefas.</li>
+ <li> Editor do mysql para fazer consultas e subconsultas no banco de dados.</li>
+ <li>Postman para testar api,s.</li>
+ <li> Vscode para editar os códigos.</li>
  </ul>
 
           </span>
@@ -200,7 +200,7 @@ Ferramentas utilizadas:
         />
         <div className='experience-description'>
           <span className='resume-description-text'>
-            -Trabalho com Desenvolvimento de Websites, landPages responsivos , Análises e Visualização de Dados .{' '}
+            <p>Trabalho com Desenvolvimento de Websites, landPages responsivos , Análises e Visualização de Dados.</p>
           </span>
         </div>
       </div>
