@@ -38,6 +38,7 @@
 
 .resume-details-carousal {
   transition: transform 1s ease-out;
+ /* transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);*/
 }
 
 .bullet-container {
@@ -52,13 +53,14 @@
   width: 86%;
   position: relative;
   z-index: 2;
+ 
 }
 
 .bullet {
   display: flex;
   align-items: center;
   cursor: pointer;
-  background-color:#07c04e;;
+  background-color:#07c04e;
   height: 80px;
   margin: 15px 0;
   padding: 0 8px;
@@ -67,11 +69,30 @@
   transition: width 0.6s ease;
 }
 
-.bullet-label {
-  font-size: 14px;
-  white-space: nowrap;
-  font-family: 'Poppins SemiBold';
+
+.bullet-label{
+ /* cursor: pointer;*/
+font-size: 14px;
+white-space: nowrap;
+font-family: 'Poppins SemiBold';
+ /*background-color:#07c04e;*/
+
+/*color: var(--black);*/
+ /*transition: var(--transition);*/
+ 
+  
+ 
+ 
 }
+
+.links :hover {
+ 
+  color: var(--clr-primary-5);
+  padding: .5rem;
+  transition: var(--transition);
+}
+
+
 
 .bullet-logo {
   height: 16px;
@@ -82,12 +103,19 @@
   width: 34px;
   height: 100%;
   z-index: 1;
-  background-color: #07c04e;;
+  background-color: #07c04e;
   position: absolute;
+ /* transform: rotate(90deg);*/
 }
-.selected-bullet {
+.selected-bullet:hover{
   color: var(--white);
   width: 100%;
+  /*cursor:'pointer';*/
+ /* background: var(--clr-primary-8);
+  color: var(--clr-primary-5);*/
+  padding-left: 1.5rem;
+  
+  /*transform: rotate(90deg);*/
 }
 
 .resume-screen-container {

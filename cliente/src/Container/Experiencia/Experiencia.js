@@ -57,13 +57,13 @@ const Experiencia = (props) => {
     { label: 'Educação', logoSrc: 'education.svg' },
     { label: 'Histórico recente', logoSrc: 'work-history.svg' },
     { label: 'Habilidades', logoSrc: 'programming-skills.svg' },
-    { label: 'Projetos atuais', logoSrc: 'projects.svg' },
+    { label: 'Projetos', logoSrc: 'projects.svg' },
    /*  { label: 'Interesses', logoSrc: 'interests.svg' },*/
   ]
 
   // habilidades
   const DetalhesHabilidades = [
-    { habilidade: 'Javascript', ratingPercentage: 75 },
+    { habilidade: 'Javascript', ratingPercentage:75 },
     { habilidade: 'React JS', ratingPercentage: 75 },
     { habilidade: 'Node JS', ratingPercentage: 70 },
     { habilidade: 'Express JS', ratingPercentage: 85 },
@@ -83,14 +83,14 @@ const Experiencia = (props) => {
       subCabecalho: 'Tecnoloiga usada: React Js, Bootstrap, javascript, css, html, NodeJs e Express Js', 
     },*/
     {
-      titulo: <a href="https://alanpontoinfo.github.io/javalearn/contabilidade/aj2contabil.html" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/cont-log.jpg").default} alt="aj2conatbil" style={{width:'100px', hight:'100px'}}/>  </a>,
+      titulo: <a className = 'links' href="https://alanpontoinfo.github.io/javalearn/contabilidade/aj2contabil.html" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/cont-log.jpg").default} alt="aj2conatbil" style={{width:'100px', hight:'100px'}}/>  </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao: 'Website para divulgar os serviços de Contabilidade',
       subCabecalho: 'Tecnologia Usada: Html, Javascript, Css',
       
     },
     {
-      titulo: <a href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> </a>,
+      titulo: <a className = 'links' href="https://saborearte.netlify.app" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/logo-saborearte.jpg").default} alt="saborearte" style={{width:'100px', hight:'100px'}}/> </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
         'Este site divulga os produtos com a devida descrição e tem integração com as redes sociais e whatsapp',
@@ -98,7 +98,7 @@ const Experiencia = (props) => {
         'Tecnologia Usada: Javascript, css, React Js, Bootstrap, html',
     },
     {
-      titulo: <a href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> </a>,
+      titulo: <a className = 'links' href="https://public.tableau.com/app/profile/alan.santos2743/viz/covid19_17221684763460/DashboardCovid19" target="_blank" rel="noopener noreferrer"> <img src={require("../../assets/Resume/covid19.jpeg").default} alt="covid19" style={{width:'100px', hight:'100px'}}/> </a>,
       duracao: { fromDate: '2023', toDate: '2024' },
       descricao:
         'Este é um projeto de Análise de Dados. Um Dashboard(painel) com gráficos e mapas sobre o Covid19. ',
@@ -119,7 +119,7 @@ const Experiencia = (props) => {
       <CabecalhoExperiencia
         cabecalho={'FreeCodeCamp'}
         subCabecalho={<a href='https://www.freecodecamp.org/fcc9e9a63cb-d21d-4d89-ad1a-40f98d9f86c1'
-        target="_blank" rel="noopener noreferrer"> Ver minhas CERTIFICAÇÕES 
+        target="_blank" rel="noopener noreferrer"><button>Ver Certificação</button> 
         </a>}
         fromDate={'2020'}
         toDate={'2022'}
@@ -157,7 +157,7 @@ const Experiencia = (props) => {
         cabecalho={'MongoDB University'}
         subCabecalho={   <a href='https://university.mongodb.com/course_completion/ec6d446e-a80b-498f-bd33-6cf5a07c94c0'
         target="_blank" rel="noopener noreferrer">
-        Ver Certificação MongoDb for Sql Pros
+        <button>Ver Certificação </button>
         </a>}
         fromDate={'2021'}
         toDate={'2021'}
@@ -268,11 +268,18 @@ Ferramentas utilizadas:</li>
     return principalExperiencia.map((principal, index) => (
       <div
         onClick={() => manipulaCarrossel(index)}
+
+       
         className={
           index === setIndexPrincipalSelecionado
-            ? 'bullet selected-bullet'
-            : 'bullet'
+         
+            ? `  bullet `
+            : `bullet  selected-bullet`
+            
+           
+
         }
+       
         key={index}
       >
         <img

@@ -9,7 +9,7 @@ export default function Perfil() {
       <div className='profile-parent'>
         <div className='profile-details'>
           <div className='colz'>
-            <div className='colz-icon fa-2x '>
+            <div className='colz-icon fa-2x  '>
              {/*  <a href='#'>
                 <i className='fa fa-facebook-square' />
               </a>
